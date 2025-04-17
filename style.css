@@ -1,0 +1,101 @@
+.cabeca{
+    background-color: black;
+    color: white;
+    height: 180px;
+}
+h1{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 34px;
+    font-size: 6vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeca > div{
+    display: flex;
+     flex-direction: column; 
+     justify-content: center;
+      align-items: center;
+}
+
+.text_1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 3.5vw;
+}
+
+.text_2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-image: url(background001.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 10px;
+}
+
+.text_2_0{
+    color: white;
+    padding: 30px 10px 10px ;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: inline-block;
+    font-size: 3.5vw;
+    border-radius: 15px;
+}
+
+.text_3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 3.5vw;
+}
+
+.text_4{
+    background-image: url(background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.text_4_0{
+    color: white;
+    padding: 5px;
+    text-align: bottom;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: inline-block;
+    font-size: 3.5vw;
+    border-radius: 15px;
+}
+
+.text_5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 3.5vw;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#insta{
+    font-size: 13px;
+}
+
+html,body{
+    height: 100vh;
+}
+
+
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 17px;
+}
